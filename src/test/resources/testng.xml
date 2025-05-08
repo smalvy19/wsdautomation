@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="WSD Automation Suite">
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+    <test name="WSD Automation Test">
+        <classes>
+            <class name="tests.ContactTest"/>
+            <class name="tests.HomeTest"/>
+        </classes>
+    </test>
+</suite>
